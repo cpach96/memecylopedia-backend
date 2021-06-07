@@ -10,14 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_07_021437) do
-
-  create_table "meme_references", force: :cascade do |t|
-    t.integer "meme_id"
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+ActiveRecord::Schema.define(version: 2021_06_07_021226) do
 
   create_table "memes", force: :cascade do |t|
     t.string "image"

@@ -7,7 +7,3 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 meme = Meme.create(image: "www.google.com", title:"Le funny meme", description: "the first ever meme")
-
-meme_ref = MemeReference.create(meme_id: 1, name: "pepe-frog")
-
-meme_ref2 = MemeReference.create(meme_id: 1, name: "bachelor-frog")
