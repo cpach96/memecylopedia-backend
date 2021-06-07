@@ -15,7 +15,7 @@ class Api::V1::MemesController < ApplicationController
     end
 
     def show
-        @meme = Meme.find(params[:id]
+        @meme = Meme.find(params[:id])
         render json: @meme
     end
 
